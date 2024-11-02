@@ -39,3 +39,6 @@ client.key
 
 # Cache
 *.swp
+
+# Practice for Go
+practice/
