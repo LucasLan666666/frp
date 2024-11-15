@@ -23,13 +23,13 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/metrics/mem"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/LucasLan666666/frp/pkg/config/types"
+	v1 "github.com/LucasLan666666/frp/pkg/config/v1"
+	"github.com/LucasLan666666/frp/pkg/metrics/mem"
+	httppkg "github.com/LucasLan666666/frp/pkg/util/http"
+	"github.com/LucasLan666666/frp/pkg/util/log"
+	netpkg "github.com/LucasLan666666/frp/pkg/util/net"
+	"github.com/LucasLan666666/frp/pkg/util/version"
 )
 
 type GeneralResponse struct {

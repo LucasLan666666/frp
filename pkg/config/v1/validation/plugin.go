@@ -17,7 +17,7 @@ package validation
 import (
 	"errors"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
+	v1 "github.com/LucasLan666666/frp/pkg/config/v1"
 )
 
 func ValidateClientPluginOptions(c v1.ClientPluginOptions) error {

@@ -19,7 +19,7 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	legacyauth "github.com/fatedier/frp/pkg/auth/legacy"
+	legacyauth "github.com/LucasLan666666/frp/pkg/auth/legacy"
 )
 
 type HTTPPluginOptions struct {

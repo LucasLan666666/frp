@@ -20,8 +20,8 @@ import (
 
 	"github.com/fatedier/golib/errors"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
+	v1 "github.com/LucasLan666666/frp/pkg/config/v1"
+	"github.com/LucasLan666666/frp/pkg/msg"
 )
 
 func init() {

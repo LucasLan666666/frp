@@ -25,14 +25,14 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/LucasLan666666/frp/client"
 	"github.com/spf13/cobra"
 
-	"github.com/fatedier/frp/client"
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/LucasLan666666/frp/pkg/config"
+	v1 "github.com/LucasLan666666/frp/pkg/config/v1"
+	"github.com/LucasLan666666/frp/pkg/config/v1/validation"
+	"github.com/LucasLan666666/frp/pkg/util/log"
+	"github.com/LucasLan666666/frp/pkg/util/version"
 )
 
 var (

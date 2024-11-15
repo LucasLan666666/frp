@@ -8,9 +8,9 @@ import (
 	"github.com/coreos/go-oidc/v3/oidc"
 	"github.com/stretchr/testify/require"
 
-	"github.com/fatedier/frp/pkg/auth"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/LucasLan666666/frp/pkg/auth"
+	v1 "github.com/LucasLan666666/frp/pkg/config/v1"
+	"github.com/LucasLan666666/frp/pkg/msg"
 )
 
 type mockTokenVerifier struct{}

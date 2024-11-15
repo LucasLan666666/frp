@@ -24,9 +24,9 @@ import (
 
 	"github.com/samber/lo"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/LucasLan666666/frp/pkg/config/v1"
+	"github.com/LucasLan666666/frp/pkg/transport"
+	"github.com/LucasLan666666/frp/pkg/util/xlog"
 )
 
 type Manager struct {
