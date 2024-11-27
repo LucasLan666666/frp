@@ -42,3 +42,10 @@ client.key
 
 # Practice for Go
 practice/
+
+# Ignore all config files
+*.toml
+
+# Ignore UML file
+*.puml
+*.png
