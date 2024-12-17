@@ -39,6 +39,7 @@ func ReadMsgInto(c io.Reader, msg Message) (err error) {
 	return msgCtl.ReadMsgInto(c, msg)
 }
 
+// frpc 走到这里，frps获取到了登录信息
 func WriteMsg(c io.Writer, msg interface{}) (err error) {
 	return msgCtl.WriteMsg(c, msg)
 }
